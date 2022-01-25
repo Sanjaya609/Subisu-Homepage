@@ -1,0 +1,83 @@
+.footer{
+
+  &-section{
+    margin-top: 6.6875rem;
+
+    .complete-subisu{
+      color: #000000;
+      @include rfs(40px);
+      font-weight: 600;
+    }
+
+    .experience{
+      h1{
+        display: inline-block;
+        @include rfs(40px);
+        font-weight: 600;
+        color: $purple;
+        margin-right: 1rem;
+      }
+
+      .footer-ic{
+        display: inline-block;
+        i{
+          color: #FF5A79;
+          @include rfs(22.5px);
+          position: relative;
+          top: -5px;
+        }
+      }
+    }
+  }
+
+  &-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  //middle section design
+
+  &-card{
+    display: flex;
+    align-items: center;
+
+  }
+
+  &-icon{
+    border: 1px solid rgba(224, 224, 224, 0.08);
+    box-sizing: border-box;
+    box-shadow: -1px 4px 2px rgba(48, 33, 215, 0.08);
+    border-radius: 0.5rem;
+    width: 3.25rem;
+    height: 3.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 1.5rem;
+    i{
+      color: $purple;
+      @include rfs(24px);
+    }
+  }
+
+  &-title{
+    @include rfs(16px);
+
+  }
+
+  &-description{
+    color: #858585;
+    @include rfs(13.33px);
+  }
+
+  &-item{
+    margin-bottom: 2.5rem;
+  }
+
+
+
+
+}

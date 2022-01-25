@@ -1,0 +1,12 @@
+.copyright{
+  background-color: $dark;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  
+  .wicc{
+      color: #FFFFFF;
+      @include rfs(13.33px);
+      font-family: 'Roboto', sans-serif;
+  }
+}

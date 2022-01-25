@@ -1,0 +1,41 @@
+.btn{
+
+  padding: 0.625rem 2.75rem;
+  @include rfs(13.33px);
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  &:hover{
+    background-color: #666666;
+  }
+
+  &-solid{
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+
+  }
+  &-white{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+
+  }
+
+  &-purple{
+    background: $purple;
+    color: #ffffff;
+    
+  }
+
+  &-yellow{
+    background: #F09B11;
+    color: #ffffff;
+    border-radius: 2.3125rem;
+  }
+
+  &-outline{
+    background: #ffffff;
+    color: black;
+    border: 1px solid #666666;
+  }
+}

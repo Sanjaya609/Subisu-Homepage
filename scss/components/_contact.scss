@@ -1,0 +1,47 @@
+.contact{
+
+  
+
+  &-space{
+    margin-top: 3rem;
+  }
+
+  &-title{
+    color: #252B42;
+    @include rfs(32px);
+    padding-bottom: 1rem;
+
+    position: relative;
+    &:after{
+      content: ' ';
+      height: 2px;
+      width: 3.125rem;
+      background: $purple;
+      position: absolute;
+      display: block;
+      margin: 1rem 0;
+    }
+  }
+
+  &-description{
+    @include rfs(18px);
+    font-weight: 500;
+    color: #525252;
+    line-height: 1.75;
+  }
+
+
+}
+
+.form-title{
+  @include rfs(16px);
+  color: #737373;
+}
+
+.btn-container{
+  margin-top: 1.5rem;
+  text-align: right;
+  button{
+    margin-bottom: 3rem;
+  }
+}
